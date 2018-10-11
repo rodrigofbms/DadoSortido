@@ -42,42 +42,9 @@ public class MainActivity extends AppCompatActivity {
     public void button1Click(View view){
         Integer aleatory;
         aleatory = rnd.nextInt(6);
-        Log.d("MyNumber", aleatory.toString());
-        switch (aleatory) {
-            case 0:
-                image.setImageResource(pictures.get(aleatory));
-                number += 1;
-                editNumber.setText(number);
-                break;
-            case 1:
-                image.setImageResource(pictures.get(aleatory));
-                number+=2;
-                editNumber.setText(number);
-                break;
-            case 2:
-                image.setImageResource(pictures.get(aleatory));
-                number+=3;
-                editNumber.setText(number);
-                break;
-            case 3:
-                image.setImageResource(pictures.get(aleatory));
-                number+=4;
-                editNumber.setText(number);
-                break;
-            case 4:
-                image.setImageResource(pictures.get(aleatory));
-                number+=5;
-                editNumber.setText(number);
-                break;
-            case 5:
-                image.setImageResource(pictures.get(aleatory));
-                number+=6;
-                editNumber.setText(number);
-                break;
-            default:
-                break;
-
-        }
+        image.setImageResource(pictures.get(aleatory));
+        number += aleatory+1;
+        editNumber.setText(number);
 
     }
 
