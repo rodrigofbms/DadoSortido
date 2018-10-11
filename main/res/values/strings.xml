@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JogoDoDado</string>
+    <string name="button1">ROLAR</string>
+    <string name="button2">PARAR</string>
+    <string name="button3">REINICIAR</string>
+    <string name="points">PONTOS</string>
+    <string name="number">0</string>
+    <string name="dadoDescription">Dado</string>
+</resources>
